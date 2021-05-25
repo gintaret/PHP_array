@@ -25,19 +25,15 @@
                     <td><?=$studentData['id'];?></td>
                     <td><?=$studentData['name'];?></td>
                     <td><?=$studentData['lastname'];?></td>
-
-                    <?php
-
+                <?php
                     $sum = 0;
                     $count = 0;
-
                     foreach($studentData['assignments'] as $assignments => $assignmentsValues)
                     {
                         $sum +=$assignmentsValues;
                         $count++;
                     }
-                    ?>
-
+                ?>
                     <td><?=round($sum/$count, 2);?></td>
                     <td><?=$studentData['date'];?></td>
                 </tr>
