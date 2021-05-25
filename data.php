@@ -1,7 +1,8 @@
 <?php
 
 $students = [
-    rand(100, 999) => [
+        ['class' => '5b',
+        'id' => rand(100, 999),
         'date' => date("Y-m-d"),
         'name' => strtoupper('Agne'),
         'lastname' => strtoupper('Agnaite'),
@@ -11,7 +12,8 @@ $students = [
             'en' => 10
         ]
     ],
-    rand(100, 999) => [
+        ['class' => '5b',
+        'id' => rand(100, 999),
         'date' => date("Y-m-d"),
         'name' => strtoupper('Inga'),
         'lastname' => strtoupper('Ingaite'),
@@ -21,7 +23,8 @@ $students = [
             'en' => 6
         ]
     ],
-    rand(100, 999) => [
+        ['class' => '5b',
+        'id' => rand(100, 999),
         'date' => date("Y-m-d"),
         'name' => strtoupper('Asta'),
         'lastname' => strtoupper('Astaite'),
@@ -31,7 +34,8 @@ $students = [
             'en' => 7
         ]
     ],
-    rand(100, 999) => [
+        ['class' => '5b',
+        'id' => rand(100, 999),
         'date' => date("Y-m-d"),
         'name' => strtoupper('Ausra'),
         'lastname' => strtoupper('Ausraite'),
@@ -41,7 +45,8 @@ $students = [
             'en' => 10
         ]
     ],
-    rand(100, 999) => [
+        ['class' => '5b',
+        'id' => rand(100, 999),
         'date' => date("Y-m-d"),
         'name' => strtoupper('Petras'),
         'lastname' => strtoupper('Petraitis'),
@@ -51,7 +56,8 @@ $students = [
             'en' => 9
         ]
     ],
-    rand(100, 999) => [
+        ['class' => '5b',
+        'id' => rand(100, 999),
         'date' => date("Y-m-d"),
         'name' => strtoupper('Jonas'),
         'lastname' => strtoupper('Jonaitis'),
@@ -61,7 +67,8 @@ $students = [
             'en' => 7
         ]
     ],
-    rand(100, 999) => [
+        ['class' => '5b',
+        'id' => rand(100, 999),
         'date' => date("Y-m-d"),
         'name' => strtoupper('Simas'),
         'lastname' => strtoupper('Simaitis'),
@@ -71,7 +78,8 @@ $students = [
             'en' => 8
         ]
     ],
-    rand(100, 999) => [
+        ['class' => '5b',
+        'id' => rand(100, 999),
         'date' => date("Y-m-d"),
         'name' => strtoupper('Ona'),
         'lastname' => strtoupper('Onaite'),
@@ -81,7 +89,9 @@ $students = [
             'en' => 10
         ]
     ],
-    rand(100, 999) => [
+
+        ['class' => '5b',
+        'id' => rand(100, 999),
         'date' => date("Y-m-d"),
         'name' => strtoupper('Zita'),
         'lastname' => strtoupper('Zitaite'),
@@ -91,7 +101,8 @@ $students = [
             'en' => 9
         ]
     ],
-    rand(100, 999) => [
+        ['class' => '5b',
+        'id' => rand(100, 999),
         'date' => date("Y-m-d"),
         'name' => strtoupper('Ugne'),
         'lastname' => strtoupper('Ugnaite'),

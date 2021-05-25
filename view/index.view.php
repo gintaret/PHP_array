@@ -6,15 +6,11 @@
               content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Students</title>
-        <link href="/view/css/style.css" type="text/css"/>
+        <link rel="stylesheet" href="view/css/style.css">
     </head>
     <body>
-        <div class="container">
-            <h2>Students</h2>
-
-
-
-            <table border='1'>
+        <h2>Students</h2>
+        <table style="width: 100% border: 1px solid black">
                 <tr>
                     <th>Class</th>
                     <th>Code</th>
@@ -23,10 +19,10 @@
                     <th>Average of assignments</th>
                     <th>Date of data formation</th>
                 </tr>
-                <?php foreach($students as $id => $studentData):?>
+                <?php foreach($students as $key => $studentData):?>
                 <tr>
-                    <td>5b</td>
-                    <td><?=$id;?></td>
+                    <td><?=$studentData['class'];?></td>
+                    <td><?=$studentData['id'];?></td>
                     <td><?=$studentData['name'];?></td>
                     <td><?=$studentData['lastname'];?></td>
 
@@ -47,6 +43,5 @@
                 </tr>
                 <?php endforeach;?>
             </table>
-        </div>
     </body>
 </html>
